@@ -24,4 +24,6 @@ This is the module responsible for holding the data in the cache. For every cach
 **Tag**: The identifier stored for that line so you can compare it later.  
 **Valid Bit**: Tells the hardware if the data in this line is "real" or just uninitialized junk.  
 **Dirty Bit**: (Crucial for your Write-Back policy) Tells the cache controller if you have modified this data since it was fetched from main memory. If this is 1, you must write it back to memory before overwriting the line.  
+<img width="770" height="244" alt="image" src="https://github.com/user-attachments/assets/492db42f-7f52-40b4-96b6-48128bb2f49d" />
+
 
