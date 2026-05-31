@@ -13,5 +13,5 @@ I will start this project off by making the simpler files first, that are mostly
 Using google docs, I will be making diagrams to list the output and inputs of each module as they are introduced
 
 
-<img width="500" height="304" alt="image" src="https://github.com/user-attachments/assets/d068d573-2622-490c-90ef-ad7a71c002d7" />
+<img width="500" height="204" alt="image" src="https://github.com/user-attachments/assets/d068d573-2622-490c-90ef-ad7a71c002d7" />
 
