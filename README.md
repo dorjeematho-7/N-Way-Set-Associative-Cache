@@ -7,4 +7,7 @@ Hello, after learning about Caches in ECE243, I would like to deepen my understa
 
 # Tag Comparator 
 
+I will start this project off by making the simpler files first, that are mostly combinational logic and then progress to finally write the FSM as the final file. This order will allow for me to have a full understanding of each module before writing the FSM and wiring all of the modules together.  
+
+
 
