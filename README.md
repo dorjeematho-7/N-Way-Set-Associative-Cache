@@ -25,6 +25,6 @@ This is the module responsible for holding the data in the cache. For every cach
 **Valid Bit**: Tells the hardware if the data in this line is "real" or just uninitialized junk.  
 **Dirty Bit**: (Crucial for your Write-Back policy) Tells the cache controller if you have modified this data since it was fetched from main memory. If this is 1, you must write it back to memory before overwriting the line.  
 <img width="500" height="184" alt="image" src="https://github.com/user-attachments/assets/b0c707a8-4152-4490-9890-b7fd3c73962b" />
-
+I also want to note that we are going to be using tags_in for read operations and way_indx for write operations on cache misses
 
 
