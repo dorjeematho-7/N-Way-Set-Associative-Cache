@@ -12,4 +12,5 @@ I will start this project off by making the simpler files first, that are mostly
 # Tag Comparator
 
 
+<img width="854" height="304" alt="image" src="https://github.com/user-attachments/assets/d068d573-2622-490c-90ef-ad7a71c002d7" />
 
