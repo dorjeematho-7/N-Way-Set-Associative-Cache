@@ -20,8 +20,9 @@ The logic for this module is simple, pass in the inputs, in a always_comb, check
 # Data Store Module  
 This is the module responsible for holding the data in the cache  
 For every cache line in every set, the data_store must maintain:  
-Data Block: The actual contents of the memory (the "payload").  
-Tag: The identifier stored for that line so you can compare it later.  
-Valid Bit: Tells the hardware if the data in this line is "real" or just uninitialized junk.  
-Dirty Bit: (Crucial for your Write-Back policy) Tells the cache controller if you have modified this data since it was fetched from main memory. If this is 1, you must write it back to memory before overwriting the line.  
+  
+**Data Block**: The actual contents of the memory (the "payload").  
+**Tag**: The identifier stored for that line so you can compare it later.  
+**Valid Bit**: Tells the hardware if the data in this line is "real" or just uninitialized junk.  
+**Dirty Bit**: (Crucial for your Write-Back policy) Tells the cache controller if you have modified this data since it was fetched from main memory. If this is 1, you must write it back to memory before overwriting the line.  
 
