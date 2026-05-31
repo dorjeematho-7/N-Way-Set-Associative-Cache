@@ -9,7 +9,7 @@ Hello, after learning about Caches in ECE243, I would like to deepen my understa
 
 I will start this project off by making the simpler files first, that are mostly combinational logic and then progress to finally write the FSM as the final file. This order will allow for me to have a full understanding of each module before writing the FSM and wiring all of the modules together. I will also be using 32 bit memory address for possible future compatibility with my RISC V CPU
 
-# Tag Comparator Module (tag_comparator.v)
+# Tag Comparator Module (tag_comparator.sv)
 Using google docs, I will be making diagrams to list the output and inputs of each module as they are introduced
 
 
@@ -17,7 +17,7 @@ Using google docs, I will be making diagrams to list the output and inputs of ea
 
 The logic for this module is simple, pass in the inputs, in a always_comb, check if  the tag bits are in any of the stored tags and if the bit is valid, and if there is a match and the valid bit is 1, then a hit has occured.  
 
-# Data Store Module  (data_store.v)
+# Data Store Module  (data_store.sv)
 This is the module responsible for holding the data in the cache. For every cache line in every set, the data_store must maintain:  
   
 **Data Block**: The actual contents of the memory (the "payload").  
