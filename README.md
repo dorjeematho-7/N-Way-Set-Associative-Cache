@@ -15,5 +15,5 @@ Using google docs, I will be making diagrams to list the output and inputs of ea
 
 <img width="500" height="184" alt="image" src="https://github.com/user-attachments/assets/d068d573-2622-490c-90ef-ad7a71c002d7" />  
 
-The logic for this module is simple, pass in the inputs, in a always_comb, check if  the tag bits are in any of the stored tags and if the bit is valid, and if there is a match and the bit is valid, then a hit has occured.  
+The logic for this module is simple, pass in the inputs, in a always_comb, check if  the tag bits are in any of the stored tags and if the bit is valid, and if there is a match and the valid bit is 1, then a hit has occured.  
 
