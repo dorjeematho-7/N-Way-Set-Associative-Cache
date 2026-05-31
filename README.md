@@ -6,10 +6,10 @@ Hello, after learning about Caches in ECE243, I would like to deepen my understa
 # Defining the structure
 The Cache shall have...  
 
-**Tag**: bitsUniquely identifies the memory block.
-**Set Number**: bits that identify the set number
-**Byte Number**: bits that determine the byte in the line  
+**Tag**: Bits uniquely identifies the memory block.  
+**Set Number**: bits that identify the set number  
+**Byte Number**: bits that determine the byte in the line    
 
-Thus I am assuming that the memory is byte addressable.
+Thus I am assuming that the memory is byte addressable.  
 
 
