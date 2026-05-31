@@ -9,7 +9,8 @@ The Cache shall have...
 **Tag**: Bits uniquely identifies the memory block.  
 **Set Number**: bits that identify the set number  
 **Byte Number**: bits that determine the byte in the line    
-
+**Valid bit**: bit that idenfities a valid data access  
+**Dirty Bit**: bit that identifies if a piece of data has been changed  
 Thus I am assuming that the memory is byte addressable.  
 
 
