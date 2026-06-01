@@ -27,6 +27,6 @@ This is the module responsible for holding the data in the cache. For every cach
 <img width="600" height="184" alt="image" src="https://github.com/user-attachments/assets/7258cdb4-0086-4ebb-b1c0-846dc52baa1a" />
 
 
-I also want to note that we are going to be using tags_in for read operations and way_indx for write operations on cache misses. Furthermore, I did not include a wr_valid because I assumed that on every write, the valid bit is 1, and so it will be hardcoded to 1 in the module
+I also want to note that I am going to be using tags_in for read operations and way_indx for write operations on cache misses. Furthermore, I did not include a wr_valid because I assumed that on every write, the valid bit is 1, and so it will be hardcoded to 1 in the module
 
 
