@@ -55,6 +55,8 @@ Alright, before writing the FSM logic, I like to make state diagrams to have my 
 
 <img width="600" height="407" alt="image" src="https://github.com/user-attachments/assets/c54ec582-0647-43e0-8ba1-8dfcdb3f8f5d" />
 
+In order to verify my FSM diagram, I looked at other FSM diagrams online for cache controllers! 
+
 
 
 
