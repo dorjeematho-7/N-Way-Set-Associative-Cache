@@ -24,7 +24,7 @@ Using google docs, I will be making diagrams to list the output and inputs of ea
 The logic for this module is simple, pass in the inputs, in a always_comb, check if  the tag bits are in any of the stored tags and if the bit is valid, and if there is a match and the valid bit is 1, then a hit has occured.  
 
 # Data Store Module  (data_store.sv)
-This is the module responsible for holding the data in the cache. For every cache line in every set, the data_store must maintain:  
+This is the module responsible for holding the data in the cache lines. For every cache line in every set, the data_store must maintain:  
   
 **Data Block**: The actual contents of the memory (the "payload").  
 **Tag**: The identifier stored for that line so you can compare it later.  
