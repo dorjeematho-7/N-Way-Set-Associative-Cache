@@ -1,4 +1,4 @@
-<img width="826" height="720" alt="image" src="https://github.com/user-attachments/assets/be35abc8-a2b0-4a56-97a4-241aa9753b0a" /># N-Way-Set-Associative-Cache
+
 
 # Introduction
 **Date : 2026-05-31**  
