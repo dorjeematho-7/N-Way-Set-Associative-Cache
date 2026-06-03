@@ -39,6 +39,7 @@ I also want to note that I am going to be using tags_in for read operations and 
 
 My original plan for this module was to have a input array and a input most recently accessed way input and then have the correct outputted array that shows the least recently used way in a set, but this approach is not optimal because then we have to find a way to store input and output array somewhere, the most likely location would be data_store, but then it would take away the main purpoose of that module as its purpose is to store the cache line data. After a hour of brainstorming I decided it was much better just to store one array in the LRU_tracker module and then have the cache controller FSM brain send details on what was most recently edited and have the array change and update inside the module and then output the victim way and set index
 
-<img width="600" height="184" alt="image" src="https://github.com/user-attachments/assets/9173ae07-edd5-4351-886d-8a4f3b246e9d" />
+<img width="600" height="184" alt="image" src="https://github.com/user-attachments/assets/8542afb3-517c-4eda-b845-c63a94d2ae2f" />
+
 
 
