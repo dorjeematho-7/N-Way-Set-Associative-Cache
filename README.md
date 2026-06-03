@@ -43,4 +43,6 @@ My original plan for this module was to have a input array and a input most rece
 
 # MAIN MEMORY (mem_model.sv)
 
+This will simply be the model for the main memory in this project, as the cpu needs something to request data from and to write too, perhaps I will later connect my RISC V CPU to this cache project, who knows though. Anyways, The inputs and outputs are as follows.  
+
 
