@@ -1,4 +1,4 @@
-# N-Way-Set-Associative-Cache
+<img width="826" height="720" alt="image" src="https://github.com/user-attachments/assets/be35abc8-a2b0-4a56-97a4-241aa9753b0a" /># N-Way-Set-Associative-Cache
 
 # Introduction
 **Date : 2026-05-31**  
@@ -49,5 +49,11 @@ This will simply be the model for the main memory in this project, as the cpu ne
 since retrieving data from the main memory takes many cycles, I added a mem_ready flag to tell the cache controller when the main memory is ready to send the requested data
 
 note: since this module is not apart of the cache and is just used for testing, a good chunk of the logic was not written by me, but instead reviewed. This only stands for this module.
+
+# FSM Diagram
+Alright, before writing the FSM logic, I like to make state diagrams to have my thoughts down on a page, here is the FSM diagram I drew
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1bf3052d-9d2b-4af3-a4ae-ae4fa0f86e9a" />
+
 
 
