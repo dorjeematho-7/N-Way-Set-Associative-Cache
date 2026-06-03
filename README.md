@@ -46,4 +46,6 @@ My original plan for this module was to have a input array and a input most rece
 This will simply be the model for the main memory in this project, as the cpu needs something to request data from and to write too, perhaps I will later connect my RISC V CPU to this cache project, who knows though. Anyways, The inputs and outputs are as follows.  
 <img width="500" height="154" alt="image" src="https://github.com/user-attachments/assets/92ac63c6-cb54-41b6-9598-713480a62f08" />
 
+since retrieving data from the main memory takes many cycles, I added a mem_ready flag to tell the cache controller when the main memory is ready to send the requested data
+
 
