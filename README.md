@@ -41,5 +41,6 @@ My original plan for this module was to have a input array and a input most rece
 
 <img width="600" height="184" alt="image" src="https://github.com/user-attachments/assets/8542afb3-517c-4eda-b845-c63a94d2ae2f" />
 
+# MAIN MEMORY (mem_model.sv)
 
 
