@@ -53,7 +53,7 @@ note: since this module is not apart of the cache and is just used for testing, 
 # FSM Diagram
 Alright, before writing the FSM logic, I like to make state diagrams to have my thoughts down on a page, here is the FSM diagram I drew
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/1bf3052d-9d2b-4af3-a4ae-ae4fa0f86e9a" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/1bf3052d-9d2b-4af3-a4ae-ae4fa0f86e9a" />
 
 
 
