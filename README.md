@@ -48,6 +48,6 @@ This will simply be the model for the main memory in this project, as the cpu ne
 
 since retrieving data from the main memory takes many cycles, I added a mem_ready flag to tell the cache controller when the main memory is ready to send the requested data
 
-note: since this module is not apart of the cache and is just used for testing, a good chunk of the logic was not written by me. This only stands for this module.
+note: since this module is not apart of the cache and is just used for testing, a good chunk of the logic was not written by me, but instead reviewed. This only stands for this module.
 
 
