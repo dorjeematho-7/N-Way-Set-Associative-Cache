@@ -57,6 +57,8 @@ Alright, before writing the FSM logic, I like to make state diagrams to have my 
 
 In order to verify my FSM diagram, I looked at other FSM diagrams online for cache controllers! 
 
+# Top.v Diagram!
+
 
 
 
