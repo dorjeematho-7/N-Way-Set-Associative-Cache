@@ -70,7 +70,7 @@ if we are doing a read then we leave we  = 0 and then we set the correct set ind
 			end
 		end else if (WE) begin
 			valid_array[wr_set][wr_way] <= 1'b1;
-			dirty_array[wr_set][wr_way] <= wr_dirty;
+			dirty_array[wr_set][wr_way] <= wr_dirty; //only 1 when the cpu modifies existing data in the cache at a specific memory address, if we are filling a fresh piece in then we should not set wr_dirty to high
 			tags_array[wr_set][wr_way]  <= wr_tag;
 			data_array[wr_set][wr_way]  <= data_in;
 		end
